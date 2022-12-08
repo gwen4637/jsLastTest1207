@@ -48,7 +48,7 @@ function renderAdminOrderList(data){
                 <td>
                 ${orderProduct}
                 </td>
-                <td>${e.createdAt}</td>
+                <td>${  getTime(e.createdAt)}</td>
                 <td class="orderStatus">
                 <a href="#" class="orderStatusBtn" data-id="${e.id}">${paid}</a>
                 </td>
